@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>바코드 / QR 멀티 생성기</title>
+</head>
+<body>
+  <header>
+    <h1>바코드 / QR 멀티 생성기</h1>
+    <div class="controls">
+      <label><input type="radio" name="mode" value="barcode" checked /> 바코드 (CODE128)</label>
+      <label><input type="radio" name="mode" value="qr" /> QR</label>
+      <span id="status"></span>
+    </div>
+    <textarea id="data-input" rows="6"
+      placeholder="한 줄에 하나씩 입력하세요&#10;예:&#10;1234567890&#10;HELLO-WORLD"></textarea>
+  </header>
+  <main id="grid"></main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
