@@ -1,7 +1,8 @@
 :root { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 * { box-sizing: border-box; }
 body { margin: 0; padding: 24px; color: #1a1a1a; background: #fafafa; }
-h1 { font-size: 2.25rem; font-weight: 700; margin: 0 0 16px; }
+h1 { font-size: 2.25rem; font-weight: 700; margin: 0 0 8px; }
+.tagline { margin: 0 0 16px; color: #555; font-size: 1.05rem; max-width: 70ch; }
 
 .controls { display: flex; align-items: center; gap: 16px; margin-bottom: 12px; flex-wrap: wrap; }
 .controls label { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; }
@@ -39,9 +40,30 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 .cell.error { border-color: #e57373; border-style: dashed; }
 .cell.error .error-msg { color: #c62828; font-size: 0.85rem; }
 
+/* SEO/GEO content below the tool */
+.info { max-width: 80ch; margin: 48px auto 0; line-height: 1.7; }
+.info h2 { font-size: 1.6rem; margin: 0 0 12px; }
+.info h3 { font-size: 1.15rem; margin: 28px 0 8px; }
+.info p { margin: 0 0 12px; color: #2a2a2a; }
+.info ul, .info ol { margin: 0 0 12px; padding-left: 1.4em; color: #2a2a2a; }
+.info li { margin: 4px 0; }
+.info details { margin: 8px 0; }
+.info > article > details > summary { cursor: pointer; font-weight: 600; }
+.info .lang {
+  margin-top: 16px; padding: 8px 16px;
+  background: #fff; border: 1px solid #e2e2e2; border-radius: 8px;
+}
+.info .lang > summary { cursor: pointer; font-weight: 700; font-size: 1.05rem; padding: 4px 0; }
+
+footer {
+  max-width: 80ch; margin: 48px auto 0; padding-top: 16px;
+  border-top: 1px solid #e2e2e2; color: #888; font-size: 0.85rem; line-height: 1.6;
+}
+footer p { margin: 4px 0; }
+
 @media print {
   body { padding: 0; background: #fff; }
-  header { display: none; }
+  header, .info, footer { display: none; }
   .png-btn { display: none; }
   #grid { gap: 8px; margin: 0; }
   .cell { border-color: #ccc; break-inside: avoid; }
