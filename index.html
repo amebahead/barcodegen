@@ -3,11 +3,114 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Barcode / QR Code Generator</title>
+
+  <title>Multiple Barcode / QR Code Generator — Free Bulk CODE128 & QR Maker</title>
+  <meta name="description" content="Free online tool to generate multiple barcodes (CODE128) and QR codes at once. Paste a list, get a grid of codes instantly — no sign-up. Download as PNG/ZIP or print." />
+  <meta name="keywords" content="multiple barcode generator, bulk barcode generator, batch qr code generator, free barcode maker, CODE128 generator, qr code generator, mass barcode generator, label generator, 멀티 바코드 생성기, 바코드 일괄 생성, QR 코드 여러개, 複数バーコード生成, QRコード一括作成, 批量条形码生成器, 二维码批量生成" />
+  <meta name="author" content="amebahead" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#1a1a1a" />
+  <link rel="canonical" href="https://amebahead.github.io/barcodegen/" />
+  <link rel="icon" type="image/svg+xml" href="/barcodegen/favicon.svg" />
+  <link rel="sitemap" type="application/xml" href="/barcodegen/sitemap.xml" />
+
+  <!-- Multilingual signals (single multilingual page) -->
+  <link rel="alternate" hreflang="en" href="https://amebahead.github.io/barcodegen/" />
+  <link rel="alternate" hreflang="ko" href="https://amebahead.github.io/barcodegen/" />
+  <link rel="alternate" hreflang="ja" href="https://amebahead.github.io/barcodegen/" />
+  <link rel="alternate" hreflang="zh" href="https://amebahead.github.io/barcodegen/" />
+  <link rel="alternate" hreflang="x-default" href="https://amebahead.github.io/barcodegen/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Multiple Barcode / QR Code Generator" />
+  <meta property="og:title" content="Multiple Barcode / QR Code Generator — Free Bulk Maker" />
+  <meta property="og:description" content="Generate many barcodes (CODE128) and QR codes at once. Free, no sign-up. Download as PNG/ZIP or print." />
+  <meta property="og:url" content="https://amebahead.github.io/barcodegen/" />
+  <meta property="og:image" content="https://amebahead.github.io/barcodegen/og-image.svg" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="ko_KR" />
+  <meta property="og:locale:alternate" content="ja_JP" />
+  <meta property="og:locale:alternate" content="zh_CN" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Multiple Barcode / QR Code Generator — Free Bulk Maker" />
+  <meta name="twitter:description" content="Generate many barcodes (CODE128) and QR codes at once. Free, no sign-up. PNG/ZIP/print." />
+  <meta name="twitter:image" content="https://amebahead.github.io/barcodegen/og-image.svg" />
+
+  <!-- Structured data: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Multiple Barcode / QR Code Generator",
+    "alternateName": ["멀티 바코드 / QR 생성기", "複数バーコード・QRコード生成器", "批量条形码 / 二维码生成器", "Bulk Barcode Generator", "Batch QR Code Generator"],
+    "url": "https://amebahead.github.io/barcodegen/",
+    "description": "Free, browser-based tool to generate multiple CODE128 barcodes and QR codes at once. Paste a list of values and instantly get a grid of codes; download as PNG/ZIP or print. All codes are generated locally in the browser.",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Any (modern web browser)",
+    "browserRequirements": "Requires JavaScript",
+    "inLanguage": ["en", "ko", "ja", "zh"],
+    "isAccessibleForFree": true,
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "featureList": [
+      "Bulk generation of barcodes and QR codes from a list",
+      "CODE128 barcode and QR code, switchable",
+      "Responsive auto-fit grid with labels",
+      "Download each code as PNG",
+      "Download all codes as a ZIP",
+      "Print the grid (Save as PDF)",
+      "Fully client-side — input never leaves the browser"
+    ],
+    "author": { "@type": "Person", "name": "amebahead" }
+  }
+  </script>
+
+  <!-- Structured data: FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I generate multiple barcodes or QR codes at once?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Paste your values into the text box, one value per line. Each line becomes its own code, and all codes appear together in a responsive grid. Empty lines are ignored." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this barcode and QR code generator free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. It is completely free with no sign-up, no installation, and no usage limits." }
+      },
+      {
+        "@type": "Question",
+        "name": "Which barcode format does it use?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Barcodes use CODE128 (auto subset), which supports ASCII letters, digits, and symbols. For non-ASCII text such as Korean, Japanese, or Chinese, or for URLs, switch to QR mode." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I download or print the codes?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Download each code as a PNG image, download all codes at once as a ZIP file, or use Print — then choose Save as PDF in the print dialog." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my data private?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every barcode and QR code is generated locally in your browser. The values you enter are never sent to any server. Only anonymous visit counts are collected." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between a barcode and a QR code?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A CODE128 barcode is a 1D (linear) code read horizontally and is common for retail and logistics. A QR code is a 2D matrix code that stores far more data — URLs, text, contact info — and can be scanned from any angle by a smartphone camera." }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header>
-    <h1>Barcode / QR Code Generator</h1>
+    <h1>Multiple Barcode / QR Code Generator</h1>
+    <p class="tagline">Free bulk generator — paste a list, get many CODE128 barcodes or QR codes at once. No sign-up.</p>
     <div class="controls">
       <label><input type="radio" name="mode" value="barcode" checked /> Barcode (CODE128)</label>
       <label><input type="radio" name="mode" value="qr" /> QR Code</label>
@@ -18,7 +121,154 @@
     <textarea id="data-input" rows="6"
       placeholder="Enter one value per line&#10;e.g.&#10;1234567890&#10;HELLO-WORLD"></textarea>
   </header>
+
   <main id="grid"></main>
+
+  <section class="info">
+    <article lang="en">
+      <h2>Free Multiple Barcode &amp; QR Code Generator</h2>
+      <p>This is a free, browser-based tool that generates <strong>multiple barcodes and QR codes at once</strong>. Type or paste a list of values — one per line — and instantly get a clean grid of codes. There is no sign-up, no installation, and no server: every code is created locally in your browser, so the data you enter never leaves your device. It is perfect for printing batches of labels, tickets, or stickers quickly and for free.</p>
+
+      <h3>Key features</h3>
+      <ul>
+        <li><strong>Bulk / batch generation</strong> — turn a whole list into many codes in one step.</li>
+        <li><strong>Barcode and QR in one place</strong> — switch between CODE128 barcode and QR code with a single toggle.</li>
+        <li><strong>Instant, responsive grid</strong> — codes auto-fit the screen, with the original value labeled under each one.</li>
+        <li><strong>Download &amp; print</strong> — save each code as PNG, download all as a ZIP, or print the grid (Save as PDF).</li>
+        <li><strong>Private &amp; free</strong> — fully client-side, no account, no cost.</li>
+      </ul>
+
+      <h3>How to generate multiple barcodes or QR codes</h3>
+      <ol>
+        <li>Enter your values in the box above, <strong>one per line</strong> (you can paste from a spreadsheet).</li>
+        <li>Choose <strong>Barcode (CODE128)</strong> or <strong>QR Code</strong>.</li>
+        <li>The grid updates automatically — no "generate" button needed.</li>
+        <li>Export with the per-code <strong>PNG</strong> button, <strong>Download all (ZIP)</strong>, or <strong>Print</strong>.</li>
+      </ol>
+
+      <h3>Common use cases</h3>
+      <ul>
+        <li>Product, inventory, and warehouse labels</li>
+        <li>Retail price tags and asset-tracking stickers</li>
+        <li>Shipping, logistics, and order numbers</li>
+        <li>Event tickets and entry QR codes</li>
+        <li>Batch QR codes for URLs, Wi-Fi, or contact (vCard) info</li>
+      </ul>
+
+      <h3>About CODE128 barcodes</h3>
+      <p>CODE128 is a high-density 1D (linear) barcode that can encode all 128 ASCII characters — uppercase and lowercase letters, digits, and symbols. It is widely used in shipping, logistics, packaging, and supply-chain labeling, and it is the basis of the GS1-128 standard. This tool uses CODE128 in <em>auto</em> mode, which automatically selects the most compact subset (A, B, or C) for your data.</p>
+
+      <h3>About QR codes</h3>
+      <p>A QR code (Quick Response code) is a 2D matrix barcode that holds much more data than a linear barcode and can be scanned from any direction by a smartphone camera. QR codes support four error-correction levels (L, M, Q, H) so they still scan even when partly damaged, and they can store URLs, plain text, contact cards, Wi-Fi credentials, and more — including Korean, Japanese, and Chinese characters.</p>
+
+      <h3>Barcode vs. QR code</h3>
+      <p>Use a <strong>CODE128 barcode</strong> for short alphanumeric IDs in retail and logistics where 1D scanners are standard. Use a <strong>QR code</strong> when you need to store URLs, longer text, non-English characters, or want easy scanning with any phone. With this generator you can switch between the two instantly and compare.</p>
+
+      <h3>Frequently asked questions</h3>
+      <details><summary>How do I generate multiple barcodes at once?</summary><p>Paste your values one per line; each line becomes its own code in the grid. Empty lines are ignored and surrounding spaces are trimmed.</p></details>
+      <details><summary>Is it really free?</summary><p>Yes — completely free, no account or installation required.</p></details>
+      <details><summary>Why does a barcode show an error?</summary><p>CODE128 supports ASCII only. If a value contains characters it cannot encode (for example Korean), only that cell shows an error — switch to QR mode for such values.</p></details>
+      <details><summary>Can I use it offline / is my data safe?</summary><p>Codes are generated entirely in your browser. The values you type are never uploaded to a server.</p></details>
+    </article>
+
+    <details class="lang" lang="ko">
+      <summary>한국어 안내 (Korean)</summary>
+      <h2>무료 멀티 바코드 / QR 코드 생성기</h2>
+      <p>여러 개의 값을 <strong>한 번에 바코드와 QR 코드로</strong> 만들어 주는 무료 웹 도구입니다. 한 줄에 하나씩 값을 입력하거나 붙여넣으면 즉시 격자 형태로 코드가 생성됩니다. 가입·설치·서버가 필요 없고, 모든 코드가 <strong>브라우저 안에서</strong> 만들어지므로 입력한 데이터가 외부로 전송되지 않습니다. 라벨·티켓·스티커를 한꺼번에 무료로 출력하기에 좋습니다.</p>
+      <h3>주요 기능</h3>
+      <ul>
+        <li><strong>대량(일괄) 생성</strong> — 목록을 통째로 붙여넣어 수십 개도 한 번에</li>
+        <li><strong>바코드·QR 전환</strong> — CODE128 바코드와 QR 코드를 버튼 하나로</li>
+        <li><strong>즉시 반응형 격자</strong> — 화면 크기에 맞춰 자동 정렬, 코드 아래 원본 값 표시</li>
+        <li><strong>다운로드·인쇄</strong> — 개별 PNG, 전체 ZIP, 인쇄(“PDF로 저장” 가능)</li>
+        <li><strong>안전·무료</strong> — 완전한 클라이언트 처리, 가입 불필요</li>
+      </ul>
+      <h3>사용 방법</h3>
+      <ol>
+        <li>위 입력창에 값을 <strong>한 줄에 하나씩</strong> 입력(엑셀 복사·붙여넣기 가능)</li>
+        <li><strong>Barcode(CODE128)</strong> 또는 <strong>QR Code</strong> 선택</li>
+        <li>입력 즉시 격자가 자동 갱신(생성 버튼 없음)</li>
+        <li>칸의 <strong>PNG</strong>, 상단 <strong>Download all (ZIP)</strong> 또는 <strong>Print</strong>로 내보내기</li>
+      </ol>
+      <h3>활용 예시</h3>
+      <ul>
+        <li>상품·재고·창고 라벨, 자산 관리 스티커</li>
+        <li>소매 가격표, 배송·물류·주문번호</li>
+        <li>행사 입장권·이벤트 QR</li>
+        <li>URL·와이파이·연락처(vCard)용 대량 QR</li>
+      </ul>
+      <h3>CODE128 바코드와 QR 코드</h3>
+      <p>CODE128은 모든 ASCII 문자를 담을 수 있는 고밀도 1차원 바코드로 물류·유통·포장에서 널리 쓰입니다. QR 코드는 2차원 코드로 더 많은 데이터(URL·텍스트·연락처)와 한글·일본어·중국어까지 담을 수 있고, 오류 정정 기능으로 일부 손상돼도 인식됩니다. 한글 등 비ASCII 값은 QR 모드를 사용하세요.</p>
+    </details>
+
+    <details class="lang" lang="ja">
+      <summary>日本語ガイド (Japanese)</summary>
+      <h2>無料の複数バーコード・QRコード生成器</h2>
+      <p>複数の値を<strong>一度にバーコードとQRコード</strong>に変換できる無料のウェブツールです。1行に1件ずつ値を入力または貼り付けると、すぐにグリッド状にコードが生成されます。登録・インストール・サーバー不要で、すべてのコードは<strong>ブラウザー内</strong>で生成されるため、入力したデータが外部に送信されることはありません。ラベルやチケット、シールをまとめて無料で印刷するのに最適です。</p>
+      <h3>主な機能</h3>
+      <ul>
+        <li><strong>一括（バッチ）生成</strong> — リストを貼り付けて多数のコードを一度に</li>
+        <li><strong>バーコードとQRの切替</strong> — CODE128バーコードとQRコードをワンタッチで</li>
+        <li><strong>即時・レスポンシブなグリッド</strong> — 画面に合わせて自動整列、各コードの下に元の値を表示</li>
+        <li><strong>ダウンロード・印刷</strong> — 個別PNG、まとめてZIP、印刷（「PDFで保存」可）</li>
+        <li><strong>安全・無料</strong> — 完全クライアント処理、登録不要</li>
+      </ul>
+      <h3>使い方</h3>
+      <ol>
+        <li>上の入力欄に<strong>1行1件</strong>で値を入力（表計算からの貼り付け可）</li>
+        <li><strong>Barcode（CODE128）</strong>または<strong>QR Code</strong>を選択</li>
+        <li>入力すると自動でグリッドが更新（生成ボタン不要）</li>
+        <li>各セルの<strong>PNG</strong>、上部の<strong>Download all (ZIP)</strong>または<strong>Print</strong>で書き出し</li>
+      </ol>
+      <h3>主な用途</h3>
+      <ul>
+        <li>商品・在庫・倉庫ラベル、資産管理シール</li>
+        <li>小売価格タグ、配送・物流・注文番号</li>
+        <li>イベントの入場券・QRコード</li>
+        <li>URL・Wi-Fi・連絡先（vCard）用の一括QR</li>
+      </ul>
+      <h3>CODE128とQRコードについて</h3>
+      <p>CODE128はすべてのASCII文字を表現できる高密度の1次元バーコードで、物流・流通・梱包で広く使われています。QRコードは2次元コードで、URL・テキスト・連絡先など多くのデータや日本語・韓国語・中国語も格納でき、誤り訂正により一部が破損しても読み取れます。非ASCII文字はQRモードをご利用ください。</p>
+    </details>
+
+    <details class="lang" lang="zh">
+      <summary>中文指南 (Chinese)</summary>
+      <h2>免费批量条形码 / 二维码生成器</h2>
+      <p>这是一个免费的网页工具，可以<strong>一次性批量生成条形码和二维码</strong>。每行输入一个值（或粘贴一份列表），即可立即得到整齐排列的代码网格。无需注册、无需安装、没有服务器：所有代码都在<strong>浏览器本地</strong>生成，您输入的数据不会上传到任何服务器。非常适合免费、快速地批量打印标签、票券或贴纸。</p>
+      <h3>主要功能</h3>
+      <ul>
+        <li><strong>批量生成</strong> — 粘贴整份列表，一次生成大量代码</li>
+        <li><strong>条形码与二维码切换</strong> — 一键在 CODE128 条形码和二维码之间切换</li>
+        <li><strong>即时响应式网格</strong> — 自动适配屏幕，每个代码下方显示原始值</li>
+        <li><strong>下载与打印</strong> — 单个 PNG、全部打包 ZIP、或打印（可“另存为 PDF”）</li>
+        <li><strong>安全免费</strong> — 完全在客户端处理，无需注册</li>
+      </ul>
+      <h3>使用方法</h3>
+      <ol>
+        <li>在上方文本框中<strong>每行输入一个</strong>值（可从表格粘贴）</li>
+        <li>选择 <strong>Barcode（CODE128）</strong> 或 <strong>QR Code</strong></li>
+        <li>输入后网格自动更新（无需“生成”按钮）</li>
+        <li>用每格的 <strong>PNG</strong>、顶部的 <strong>Download all (ZIP)</strong> 或 <strong>Print</strong> 导出</li>
+      </ol>
+      <h3>常见用途</h3>
+      <ul>
+        <li>商品、库存、仓库标签与资产管理贴纸</li>
+        <li>零售价格标签、物流配送与订单编号</li>
+        <li>活动门票与入场二维码</li>
+        <li>用于网址、Wi-Fi、联系人（vCard）的批量二维码</li>
+      </ul>
+      <h3>关于 CODE128 与二维码</h3>
+      <p>CODE128 是一种高密度一维条形码，可表示全部 ASCII 字符，广泛用于物流、零售与包装。二维码是二维矩阵码，能存储更多数据（网址、文本、联系人）以及中文、日文、韩文，并具备纠错能力，部分损坏仍可识别。中文等非 ASCII 内容请使用二维码模式。</p>
+    </details>
+  </section>
+
+  <footer>
+    <p>Multiple Barcode / QR Code Generator · CODE128 &amp; QR · Free, client-side, no sign-up · 멀티 바코드 QR 생성기 · 複数バーコード QR 生成 · 批量条形码 二维码生成器</p>
+    <p>Codes are generated in your browser and never uploaded. Anonymous visit counts via GoatCounter.</p>
+  </footer>
+
   <script type="module" src="/src/main.ts"></script>
+  <script data-goatcounter="https://amebahead.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

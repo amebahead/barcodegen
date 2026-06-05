@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Multiple Barcode and QR Code Generator">
+  <rect width="1200" height="630" fill="#fafafa"/>
+  <rect x="0" y="0" width="1200" height="12" fill="#1a1a1a"/>
+  <text x="80" y="190" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="78" font-weight="700" fill="#1a1a1a">Multiple Barcode</text>
+  <text x="80" y="285" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="78" font-weight="700" fill="#1a1a1a">/ QR Code Generator</text>
+  <text x="80" y="355" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="34" fill="#555">Free · Bulk · No sign-up · Generate many codes at once</text>
+
+  <!-- barcode sample -->
+  <g fill="#1a1a1a" transform="translate(80,430)">
+    <rect x="0" y="0" width="6" height="120"/>
+    <rect x="12" y="0" width="4" height="120"/>
+    <rect x="22" y="0" width="8" height="120"/>
+    <rect x="36" y="0" width="4" height="120"/>
+    <rect x="46" y="0" width="6" height="120"/>
+    <rect x="58" y="0" width="10" height="120"/>
+    <rect x="74" y="0" width="4" height="120"/>
+    <rect x="84" y="0" width="6" height="120"/>
+    <rect x="96" y="0" width="4" height="120"/>
+    <rect x="106" y="0" width="8" height="120"/>
+    <rect x="120" y="0" width="4" height="120"/>
+    <rect x="130" y="0" width="6" height="120"/>
+    <rect x="142" y="0" width="10" height="120"/>
+    <rect x="158" y="0" width="4" height="120"/>
+    <rect x="168" y="0" width="6" height="120"/>
+  </g>
+
+  <!-- QR sample -->
+  <g fill="#1a1a1a" transform="translate(980,420)">
+    <rect x="0" y="0" width="140" height="140" fill="none" stroke="#1a1a1a" stroke-width="10"/>
+    <rect x="22" y="22" width="34" height="34"/>
+    <rect x="84" y="22" width="34" height="34"/>
+    <rect x="22" y="84" width="34" height="34"/>
+    <rect x="70" y="70" width="16" height="16"/>
+    <rect x="92" y="84" width="14" height="14"/>
+    <rect x="84" y="104" width="16" height="16"/>
+    <rect x="104" y="104" width="14" height="14"/>
+  </g>
+
+  <text x="80" y="600" font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="26" fill="#888">amebahead.github.io/barcodegen</text>
+</svg>

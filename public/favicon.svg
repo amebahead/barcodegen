@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Barcode and QR code">
+  <rect width="64" height="64" rx="10" fill="#1a1a1a"/>
+  <!-- barcode bars (left) -->
+  <g fill="#ffffff">
+    <rect x="10" y="16" width="3" height="32"/>
+    <rect x="15" y="16" width="2" height="32"/>
+    <rect x="19" y="16" width="4" height="32"/>
+    <rect x="25" y="16" width="2" height="32"/>
+  </g>
+  <!-- mini QR (right) -->
+  <g fill="#ffffff">
+    <rect x="33" y="16" width="18" height="18" rx="1" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <rect x="38" y="21" width="8" height="8"/>
+    <rect x="33" y="40" width="5" height="5"/>
+    <rect x="41" y="40" width="5" height="5"/>
+    <rect x="47" y="40" width="4" height="4"/>
+    <rect x="33" y="47" width="4" height="4"/>
+    <rect x="46" y="47" width="5" height="5"/>
+  </g>
+</svg>

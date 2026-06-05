@@ -1,0 +1,31 @@
+# Multiple Barcode / QR Code Generator
+
+> A free, browser-based tool to generate many barcodes (CODE128) and QR codes at once. Paste a list of values — one per line — and instantly get a tidy grid of codes. No sign-up, no installation, no server: every code is generated locally in the browser, so the data you type never leaves your device. Download each code as PNG, download all as a ZIP, or print the whole grid (and "Save as PDF").
+
+Live app: https://amebahead.github.io/barcodegen/
+
+## What it does
+- Bulk / batch generation: turn a list of strings into multiple barcodes or QR codes in one step.
+- Two code types, switchable with one toggle: CODE128 barcode (auto subset) and QR code.
+- Responsive grid layout that auto-fits the screen, with the original value shown under each code.
+- Per-cell error handling: invalid values fail only in their own cell; the rest still render.
+- Export: individual PNG per code, "Download all" as a ZIP of PNGs, and Print (browser "Save as PDF").
+
+## Who it is for
+Small-business owners, online sellers, warehouse and inventory staff, retail, event organizers, makers, and developers who need to create many labels or codes quickly and for free.
+
+## Key facts
+- Price: free (no account, no ads-wall).
+- Privacy: fully client-side; input values are not transmitted to any server. Anonymous visit counts are collected via GoatCounter.
+- Tech: TypeScript + Vite, JsBarcode (CODE128), qrcode-generator (QR), output as SVG.
+- Languages of guidance on the page: English, Korean (한국어), Japanese (日本語), Chinese (中文).
+
+## Common questions
+- How do I generate multiple barcodes at once? Paste one value per line into the text box; each line becomes its own code in the grid.
+- Is it free? Yes, completely free with no sign-up.
+- Which barcode format? CODE128 (supports ASCII letters, digits, and symbols). Use QR mode for non-ASCII text such as Korean, Japanese, or Chinese, and for URLs.
+- Can I download or print? Yes — PNG per code, all as a ZIP, or print/Save-as-PDF.
+- Does it work offline / is my data private? Codes are generated in your browser; the values you enter are never sent to a server.
+
+## Keywords
+multiple barcode generator, bulk barcode generator, batch QR code generator, free barcode maker, CODE128 generator, QR code generator, mass label generator, 멀티 바코드 생성기, 바코드 일괄 생성, QR 코드 여러 개, 複数バーコード生成, QRコード一括作成, 批量条形码生成器, 二维码批量生成
